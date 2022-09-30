@@ -1,0 +1,116 @@
+/**********WEB RESPONSIVE************/
+
+
+
+@media screen and (max-width: 800px){
+
+    /****INICIO****/
+
+    .social-icons{
+      justify-self: center;
+      margin: auto;
+    }
+
+    .seccion-contac{
+        width: 100%;
+        display: grid;
+    }
+
+    .contac img{
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+    .social-icons{
+        width: 100%;
+        padding: 0 5px 0;
+        margin: 0;
+    }
+    .nav-logo{
+        display: flex;
+        align-items: center;
+    }
+    .nav-logo, .nav-link{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .nav-logo img{
+        width: 150px;
+    }
+
+    .main-container__text{
+        font-size: 25px;
+    }
+
+
+    /****BLOGS****/
+
+    .news{
+        padding: 0;
+        width: 100%;
+        padding: 10px;
+    }
+    .news-div{
+        padding: 0;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+    .news-div img{
+        grid-row: 2;
+    }
+    .news-div .news-info{
+        grid-row: 3;
+        grid-column: 1;
+    }
+    .posts{
+        width: 100%;
+        padding: 10px;
+    }
+    .posts-blog{
+        max-width: 100%;
+    }
+
+
+    /**Perfile**/
+    .profile{
+        padding: 20px;
+    }
+
+    .profile-img img{
+        width: 90%;
+    }
+
+    .project-container{
+        padding: 20px;
+    }
+    .project{
+        max-width: 45%;
+        text-align: center;
+    }
+    /***Perfil****/
+.main-blog{
+    padding: 10px;
+}
+.main-blog__content img{
+    padding: 0;
+}
+.blog-content__article{
+    padding: 0;
+}
+
+.seccion-contac{
+    padding: 10px;
+    display: grid;
+}
+.contact{
+    display: grid;
+    margin: 0px;
+}
+
+}
+
+
